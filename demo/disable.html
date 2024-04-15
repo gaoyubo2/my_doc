@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.9" />
+    <meta name="theme" content="VuePress Theme Hope 2.0.0-rc.35" />
+    <style>
+      html {
+        background: var(--bg-color, #fff);
+      }
+
+      html[data-theme="dark"] {
+        background: var(--bg-color, #1d1e1f);
+      }
+
+      body {
+        background: var(--bg-color);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    </script>
+    <meta property="og:url" content="https://vuepress-theme-hope-docs-demo.netlify.app/my_doc/demo/disable.html"><meta property="og:site_name" content="文档演示"><meta property="og:title" content="布局与功能禁用"><meta property="og:description" content="你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。 本页面就是一个示例，禁用了如下功能: 导航栏 侧边栏 路径导航 页面信息 贡献者 编辑此页链接 更新时间 上一篇/下一篇 链接 评论 页脚 返回顶部按钮"><meta property="og:type" content="article"><meta property="og:locale" content="zh-CN"><meta property="article:author" content="Mr.Hope"><meta property="article:tag" content="禁用"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"布局与功能禁用","image":[""],"dateModified":null,"author":[{"@type":"Person","name":"Mr.Hope","url":"https://mister-hope.com"}]}</script><title>布局与功能禁用 | 文档演示</title><meta name="description" content="你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。 本页面就是一个示例，禁用了如下功能: 导航栏 侧边栏 路径导航 页面信息 贡献者 编辑此页链接 更新时间 上一篇/下一篇 链接 评论 页脚 返回顶部按钮">
+    <link rel="preload" href="/my_doc/assets/style-DPI_gByq.css" as="style"><link rel="stylesheet" href="/my_doc/assets/style-DPI_gByq.css">
+    <link rel="modulepreload" href="/my_doc/assets/app-CylUWkQh.js"><link rel="modulepreload" href="/my_doc/assets/disable.html-D0Srd4tO.js"><link rel="modulepreload" href="/my_doc/assets/plugin-vue_export-helper-DlAUqK2U.js">
+    <link rel="prefetch" href="/my_doc/assets/index.html-bzd1W5wp.js" as="script"><link rel="prefetch" href="/my_doc/assets/encrypt.html-COUXvBPW.js" as="script"><link rel="prefetch" href="/my_doc/assets/layout.html-Bg11eNVo.js" as="script"><link rel="prefetch" href="/my_doc/assets/markdown.html-BVSFMiBK.js" as="script"><link rel="prefetch" href="/my_doc/assets/page.html-h5Rg1pb8.js" as="script"><link rel="prefetch" href="/my_doc/assets/index.html-CePaoU0o.js" as="script"><link rel="prefetch" href="/my_doc/assets/my1.html-BQMnWO9V.js" as="script"><link rel="prefetch" href="/my_doc/assets/my2.html-C-KRww37.js" as="script"><link rel="prefetch" href="/my_doc/assets/index.html-BgMTItfL.js" as="script"><link rel="prefetch" href="/my_doc/assets/JVM学习-Class文件结构.html-CfNppXeM.js" as="script"><link rel="prefetch" href="/my_doc/assets/JVM学习-字节码执行引擎.html-DHgxZBkx.js" as="script"><link rel="prefetch" href="/my_doc/assets/JVM学习-程序编译与优化.html-CJcA7g3v.js" as="script"><link rel="prefetch" href="/my_doc/assets/JVM学习-类加载机制.html-BJiZqr66.js" as="script"><link rel="prefetch" href="/my_doc/assets/JVM学习-自动内存管理.html-e0pP7Azi.js" as="script"><link rel="prefetch" href="/my_doc/assets/baz.html-Lk4-y1PQ.js" as="script"><link rel="prefetch" href="/my_doc/assets/index.html-DlxLXcfq.js" as="script"><link rel="prefetch" href="/my_doc/assets/ray.html-Dq2DOBkv.js" as="script"><link rel="prefetch" href="/my_doc/assets/index.html-u-Or-Ug2.js" as="script"><link rel="prefetch" href="/my_doc/assets/Lambda表达式.html-DM2bNJ6Z.js" as="script"><link rel="prefetch" href="/my_doc/assets/Optional类.html-BK1w0KKB.js" as="script"><link rel="prefetch" href="/my_doc/assets/函数式接口.html-BY0ZOGj0.js" as="script"><link rel="prefetch" href="/my_doc/assets/接口增强.html-CQQ5ARPB.js" as="script"><link rel="prefetch" href="/my_doc/assets/常用方法.html-CFPCCCp9.js" as="script"><link rel="prefetch" href="/my_doc/assets/并行流.html-DhYMapS-.js" as="script"><link rel="prefetch" href="/my_doc/assets/结果收集.html-0VAeXIBe.js" as="script"><link rel="prefetch" href="/my_doc/assets/综合案例.html-BXlshHD6.js" as="script"><link rel="prefetch" href="/my_doc/assets/获取方式.html-BhM0YTyB.js" as="script"><link rel="prefetch" href="/my_doc/assets/404.html-DdhxGE0m.js" as="script"><link rel="prefetch" href="/my_doc/assets/index.html-V8Sx75u7.js" as="script"><link rel="prefetch" href="/my_doc/assets/index.html-Ce_sD1nG.js" as="script"><link rel="prefetch" href="/my_doc/assets/index.html-DbO6ts4g.js" as="script"><link rel="prefetch" href="/my_doc/assets/index.html-B1mpWUh6.js" as="script"><link rel="prefetch" href="/my_doc/assets/index.html-DSJvn_PG.js" as="script"><link rel="prefetch" href="/my_doc/assets/index.html-CpS-s1ZS.js" as="script"><link rel="prefetch" href="/my_doc/assets/giscus-7BMGhbDA.js" as="script"><link rel="prefetch" href="/my_doc/assets/photoswipe.esm-SzV8tJDW.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="vp-skip-link sr-only">跳至主要內容</a><!--]--><div class="theme-container no-navbar no-sidebar has-toc"><!----><!----><div class="toggle-sidebar-wrapper"><span class="arrow start"></span></div><aside id="sidebar" class="vp-sidebar"><!--[--><!----><!--]--><ul class="vp-sidebar-links"></ul><!--[--><!----><!--]--></aside><!--[--><main id="main-content" class="vp-page"><!--[--><!--[--><!----><!--]--><!----><nav class="vp-breadcrumb disable"></nav><div class="vp-page-title"><h1><span class="font-icon icon fa-fw fa-sm fas fa-gears" style=""></span>布局与功能禁用</h1><!----><hr></div><!----><!--[--><!----><!--]--><div class="theme-hope-content"><p>你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。</p><!-- more --><p>本页面就是一个示例，禁用了如下功能:</p><ul><li>导航栏</li><li>侧边栏</li><li>路径导航</li><li>页面信息</li><li>贡献者</li><li>编辑此页链接</li><li>更新时间</li><li>上一篇/下一篇 链接</li><li>评论</li><li>页脚</li><li>返回顶部按钮</li></ul></div><!--[--><!----><!--]--><footer class="vp-page-meta"><!----><div class="vp-meta-item git-info"><!----><!----></div></footer><!----><div id="vp-comment" class="giscus-wrapper input-top" style="display:none;"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" preserveAspectRatio="xMidYMid" viewBox="0 0 100 100"><circle cx="28" cy="75" r="11" fill="currentColor"><animate attributeName="fill-opacity" begin="0s" dur="1s" keyTimes="0;0.2;1" repeatCount="indefinite" values="0;1;1"></animate></circle><path fill="none" stroke="#88baf0" stroke-width="10" d="M28 47a28 28 0 0 1 28 28"><animate attributeName="stroke-opacity" begin="0.1s" dur="1s" keyTimes="0;0.2;1" repeatCount="indefinite" values="0;1;1"></animate></path><path fill="none" stroke="#88baf0" stroke-width="10" d="M28 25a50 50 0 0 1 50 50"><animate attributeName="stroke-opacity" begin="0.2s" dur="1s" keyTimes="0;0.2;1" repeatCount="indefinite" values="0;1;1"></animate></path></svg></div><!--[--><!----><!--]--><!--]--></main><!--]--><!----></div><!--]--><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/my_doc/assets/app-CylUWkQh.js" defer></script>
+  </body>
+</html>
